@@ -1,0 +1,33 @@
+{
+  "slug": "Semeru",
+  "name": "Semeru",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Semeru",
+  "author": "Arundaon",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "PelogQuantizer",
+      "name": "PelogQuantizer",
+      "description": "Quantizer for Gamelan's Pelog Scale",
+      "tags": [
+        "quantizer"
+      ]
+    },
+    {
+      "slug": "SlendroQuantizer",
+      "name": "SlendroQuantizer",
+      "description": "Quantizer for Gamelan's Slendro Scale",
+      "tags": [
+        "quantizer"
+      ]
+    }
+  ]
+}
