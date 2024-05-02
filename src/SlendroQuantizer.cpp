@@ -170,19 +170,6 @@ struct SlendroQuantizerWidget : ModuleWidget {
 
 		addOutput(createOutput<TinyPJ301MPort>(mm2px(Vec(12.606, 102.8)), module, SlendroQuantizer::VOLTAGE_OUTPUT));
 
-		// addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.16, 19.275)), module, SlendroQuantizer::NOTES5_PARAM));
-		// addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.16, 24.415)), module, SlendroQuantizer::NOTES4_PARAM));
-		// addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.16, 29.555)), module, SlendroQuantizer::NOTES3_PARAM));
-		// addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.16, 34.695)), module, SlendroQuantizer::NOTES2_PARAM));
-		// addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.16, 39.835)), module, SlendroQuantizer::NOTES1_PARAM));
-		// addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.16, 61.664)), module, SlendroQuantizer::ROOT_PARAM));
-		// addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.16, 83.525)), module, SlendroQuantizer::OCTAVE_PARAM));
-
-		// addInput(createInputCentered<PJ301MPort>(mm2px(Vec(10.16, 68.089)), module, SlendroQuantizer::ROOT_INPUT));
-		// addInput(createInputCentered<PJ301MPort>(mm2px(Vec(10.16, 89.95)), module, SlendroQuantizer::OCTAVE_INPUT));
-		// addInput(createInput<PJ301MPort>(mm2px(Vec(2.54, 102.8)), module, SlendroQuantizer::VOLTAGE_INPUT));
-
-		// addOutput(createOutput<PJ301MPort>(mm2px(Vec(12.606, 102.8)), module, SlendroQuantizer::VOLTAGE_OUTPUT));
 	}
 };
 
