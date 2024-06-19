@@ -1,4 +1,5 @@
 # Semeru
+<a href="https://www.youtube.com/watch?v=217rQ-XxRmg">Demo Video</a> <br><br>
 VCV Rack is an open-source software that simulates hardware modular synthesizers, used by musicians and hobbyists worldwide. The Semeru plugin was created for my thesis to facilitate musicians to use Gamelan’s Pelog and Slendro microtonal scales in their VCV Rack patches easily. It was implemented with C++, with the help of VCV’s SDK.
 <p align="center">
   <img src="https://github.com/Arundaon/Semeru/assets/68210759/1d10c79c-d4d4-4f71-9ec2-60645f4d28fd" height="400">
